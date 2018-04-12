@@ -2,6 +2,8 @@ class User
   include Mongoid::Document
   include Mongoid::Timestamps
 
+  include LogValidationErrors
+
   field :email, type: String
   field :uuid, type: String
 
