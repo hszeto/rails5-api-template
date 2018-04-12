@@ -14,6 +14,7 @@ gem 'httparty', '~> 0.16.2'
 gem 'jbuilder', '~> 2.5'
 gem 'mongoid', '~> 6.1.0'
 gem 'puma', '~> 3.7'
+gem 'rack-cors', :require => 'rack/cors'
 gem 'rails', '~> 5.2.0'
 
 group :development do
