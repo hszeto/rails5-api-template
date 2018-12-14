@@ -20,10 +20,12 @@ gem 'rails', '~> 5.2.0'
 group :development do
   gem 'listen', '~> 3.0'
   gem 'rubocop', '~> 0.54.0', require: false
+  gem 'bullet'
 end
 
 group :development, :test do
-  gem 'byebug', platform: :mri
+  # Call 'binding.pry' anywhere in the code to stop execution
+  gem 'pry-rails'
   gem 'factory_bot_rails'
   gem 'rspec-rails', '~> 3.7'
 end
