@@ -25,6 +25,7 @@ end
 
 group :development, :test do
   # Call 'binding.pry' anywhere in the code to stop execution
+  gem 'pry-nav'
   gem 'pry-rails'
   gem 'factory_bot_rails'
   gem 'rspec-rails', '~> 3.7'
